@@ -19,6 +19,8 @@ variable "ami_id" {
   default     = "ami-05ffe3c48a9991133" # Amazon Linux 2 in ap-south-1
 }
 
+####
+
 variable "instance_type" {
   description = "EC2 instance type"
   type        = string
